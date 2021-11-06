@@ -11,8 +11,8 @@ app.set('view engine', 'pug');
 app.use(express.static('public'));
 
 // get et post
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Session avec notre cle
 

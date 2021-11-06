@@ -1,0 +1,20 @@
+
+include bootstrap.pug
+
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark
+  // Brand
+  a.navbar-brand(href='#') Logo
+  // Links
+  ul.navbar-nav
+    li.nav-item
+      a.nav-link(href='#') Link 1
+    li.nav-item
+      a.nav-link(href='#') Link 2
+    // Dropdown
+    li.nav-item.dropdown
+      a#navbardrop.nav-link.dropdown-toggle(href='#' data-toggle='dropdown')
+        | Dropdown link
+      .dropdown-menu
+        a.dropdown-item(href='#') Link 1
+        a.dropdown-item(href='#') Link 2
+        a.dropdown-item(href='#') Link 3
